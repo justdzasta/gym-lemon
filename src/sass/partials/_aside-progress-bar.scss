@@ -41,13 +41,13 @@
             &:not(#separate-number)::after,
             &:first-child::after {
                 content: '';
+                position: relative;
                 display: block;
                 width: 10px;
                 height: 10px;
+                top: 33px;
                 background-color: $gray;
                 z-index: 4;
-                position: relative;
-                top: 33px;
             } 
 
             &:not(#separate-number)::after {

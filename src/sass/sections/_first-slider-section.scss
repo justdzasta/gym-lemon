@@ -1,0 +1,65 @@
+section {
+    .cta-container {
+        position: relative;
+        width: 30%;
+        top: 15%;
+
+        p {
+            .gym-lemon {
+                font-family: $korolev-font;
+                font-weight: 700;
+                letter-spacing: 0.1rem;
+                color: $yellow;
+            }
+        }
+
+        a {
+            font-family: $cabin-font;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: $yellow;
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        z-index: -1;
+    }
+
+    .slider-container {
+        position: relative;
+        top: 70px;
+        left: 40%;
+
+        h3 {
+            &::after {
+                content: '';
+                display: block;
+                position: relative;
+                width: 220px;
+                height: 2px;
+                background-color: $light-gray;
+                top: 15px;
+                left: -10px;
+            }
+
+            span {
+                color: $light-gray;
+                margin-right: 15px;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    position: relative;
+                    width: 2px;
+                    height: 20px;
+                    top: 16px;
+                    background-color: $light-gray;
+                    margin-left: -10px;
+                }
+            }
+        }
+    }
+}

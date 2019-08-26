@@ -9,40 +9,42 @@
 }
 
 h1 {
-    font-family: almaq-rough, sans-serif;
-        @include font(11rem, .7em, $yellow, 400);
+    font-family: $almaq-font;
+    text-transform: uppercase;
+        @include font(7rem, .8em, $yellow, 400);
 }
 
 h2 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin-font;
     text-transform: uppercase;
         @include font(2rem, .75em, $yellow, 700);
 }
 
 h3 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin-font;
     text-transform: uppercase;
-        @include font(1.2rem, .75em, $light-gray, 400);
+        @include font(1.2rem, .75em, $yellow, 700);
 }
 
 h4 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin-font;
     text-transform: uppercase;
+        @include font(1rem, .75em, $white, 400);
 }
 
 h5, h6 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $cabin-font;
     text-transform: uppercase;
         @include font(1rem, .05em, $white, 400);
 }
 
 p {
-    font-family: 'Cabin', sans-serif;
-        @include font(.95rem, .05em, $white, 400);
+    font-family: $cabin-font;
+        @include font(.95rem, 1.5em, $white, 400);
 }
 
 ul, li, a {
-        font-family: korolev-military-stencil, sans-serif;
+        font-family: $korolev-font;
         text-decoration: none;
         list-style-type: none;
         text-transform: uppercase;
