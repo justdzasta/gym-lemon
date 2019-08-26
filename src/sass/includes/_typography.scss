@@ -41,9 +41,9 @@ p {
         @include font(.95rem, .05em, $white, 400);
 }
 
-ul {
+ul, li, a {
         font-family: korolev-military-stencil, sans-serif;
         text-decoration: none;
         list-style-type: none;
-            @include font(1rem, .2em, $gray, 400);
+            @include font(1.75rem, .9em, $gray, 400);
 }

@@ -1,0 +1,62 @@
+.progressbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: $aside-gray;
+
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ul, li, a {
+        align-items: center;
+        padding-left: 0;
+        font-size: 3.5rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        li {
+            margin-bottom: 40px;
+
+            &:not(#separate-number)::after,
+            &:first-child::after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: $gray;
+                z-index: 4;
+                position: relative;
+                top: 18px;
+            } 
+
+            &:not(#separate-number)::after {
+                left: 11px;
+            }
+
+            &:first-child::after {
+                left: 6px;
+            }
+        }
+    }
+}

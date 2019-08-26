@@ -4,7 +4,11 @@
 @import './sass/includes/variables';
 @import './sass/includes/typography';
 
-body {
-    background-color: $black;
-}
+//main style file
 
+@import './sass/index';
+
+//partials chunk files
+
+@import './sass/partials/navmenu';
+@import './sass/partials/aside-progress-bar';
