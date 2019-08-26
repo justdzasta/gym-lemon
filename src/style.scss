@@ -1,3 +1,10 @@
 //includes - constans and global chunk styling files
 
 @import './sass/includes/normalize';
+@import './sass/includes/variables';
+@import './sass/includes/typography';
+
+body {
+    background-color: $black;
+}
+
