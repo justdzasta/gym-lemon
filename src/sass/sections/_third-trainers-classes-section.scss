@@ -1,0 +1,58 @@
+.trainers-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -95px;
+
+    article {
+        height: 800px;
+        width: 30%;
+
+        .title-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            position: relative;
+            top: 15px;
+
+            background-color: rgba(5,5,5,0.6);
+            transform: translateY(662px);
+            padding-bottom: 20px;
+        
+            h2 {
+                text-align: center;
+                line-height: .9em;
+                margin-top: 19px;
+            }
+
+            h5 {
+                text-transform: uppercase;
+                font-size: .9rem;
+                margin-bottom: 7px;
+                margin-top: -10px;
+            }
+        }
+    }
+
+    .catherine-brook-container {
+        background-image: url('/src/img/catherine-brook-color.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eddy-caufield {
+        background-image: url('/src/img/eddy-caufield.png');
+        background-size: 160%;
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+        background-position-y: -4px;
+    }
+
+    .ruth-williams {
+        background-image: url('/src/img/ruth-williams.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -120px; 
+    }
+}
