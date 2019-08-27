@@ -7,19 +7,52 @@
         height: 800px;
         width: 30%;
 
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 10px;
+            background-color: rgba(5, 5, 5, 0.8);
+            overflow: hidden;
+            width: 100%;
+            height: 123px;
+            transition: .5s ease;
+
+            .overlay-text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 193%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        }
+
+        &:hover .overlay {
+            height: 800px;
+        }
+
+        &:hover .overlay-text {
+            top: 50%;
+        }
+
         .title-container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
-            position: relative;
-            top: 15px;
 
-            background-color: rgba(5,5,5,0.6);
-            transform: translateY(662px);
-            padding-bottom: 20px;
-        
+            position: relative;
+            //top: 15px;
+
+            background-color: rgba(5, 5, 5, 0.8);
+            transform: translateY(800px);
+            //padding-bottom: 20px;
+
             h2 {
                 text-align: center;
                 line-height: .9em;
@@ -27,6 +60,7 @@
             }
 
             h5 {
+                text-align: center;
                 text-transform: uppercase;
                 font-size: .9rem;
                 margin-bottom: 7px;
@@ -53,6 +87,6 @@
         background-image: url('/src/img/ruth-williams.png');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: -120px; 
+        background-position-x: -120px;
     }
 }

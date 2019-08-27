@@ -34,7 +34,7 @@ h4 {
 
 h5, h6 {
     font-family: $cabin-font;
-        @include font(.7rem, .2em, $light-gray, 400);
+        @include font(.7rem, 1em, $light-gray, 400);
 }
 
 p {
