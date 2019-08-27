@@ -23,19 +23,18 @@ h2 {
 h3 {
     font-family: $cabin-font;
     text-transform: uppercase;
-        @include font(1.2rem, .75em, $yellow, 700);
+        @include font(1.2rem, .5em, $yellow, 700);
 }
 
 h4 {
     font-family: $cabin-font;
     text-transform: uppercase;
-        @include font(1rem, .75em, $white, 400);
+        @include font(.8rem, .5em, $white, 700);
 }
 
 h5, h6 {
     font-family: $cabin-font;
-    text-transform: uppercase;
-        @include font(1rem, .05em, $white, 400);
+        @include font(.7rem, .2em, $light-gray, 400);
 }
 
 p {

@@ -38,7 +38,7 @@ section {
                 content: '';
                 display: block;
                 position: relative;
-                width: 220px;
+                width: 222px;
                 height: 2px;
                 background-color: $light-gray;
                 top: 15px;
@@ -54,12 +54,24 @@ section {
                     display: block;
                     position: relative;
                     width: 2px;
-                    height: 20px;
+                    height: 22px;
                     top: 16px;
                     background-color: $light-gray;
                     margin-left: -10px;
                 }
             }
+        }
+
+        h4, h6 {
+            margin-left: -10px;
+        }
+
+        h4 {
+            margin-top: 33px;
+        }
+
+        h6 {
+            margin-top: 7px;
         }
     }
 }
