@@ -1,6 +1,13 @@
-section {
+.slider-section {
+    background-image: url('/src/img/catherine-brook-2x.png');
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: -400px;
+
+    height: 760px;
+
     .cta-container {
-        position: relative;
+        //position: relative;
         width: 30%;
         top: 15%;
 
@@ -21,15 +28,15 @@ section {
         }
     }
 
-    img {
-        position: absolute;
-        bottom: 0;
-        left: 40%;
-        z-index: -1;
-    }
+    // img {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 40%;
+    //     z-index: -1;
+    // }
 
     .slider-container {
-        position: relative;
+        //position: relative;
         top: 70px;
         left: 40%;
 
