@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
 
-    background-image: url('/src/img/lift-weight.png');
+    background-image: url('/src/img/lift-weight-2x.png');
     background-repeat: no-repeat;
-    //background-position-x: 250px;
-    background-position-y: -400px;
+    background-size: 210%;
+    background-position-y: -430px;
+    background-position-x: -510px;
 
-    height: 760px;
+    height: 650px;
+    margin-top: 60px;
 
     .cta-content {
         width: 30%;
@@ -24,6 +26,7 @@
 
                 img {
                     margin-right: 20px;
+                    //margin-top: 5px;
                 }
             }
         }
