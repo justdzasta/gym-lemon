@@ -17,11 +17,16 @@
             font-weight: 700;
             font-size: 1.1rem;
             color: $yellow;
+
+            i {
+                margin-left: 10px;
+            }
         }
     }
 
     .slider-container {
-        top: 70px;
+        position: relative;
+        top: 10px;
         left: 40%;
 
         h3 {
