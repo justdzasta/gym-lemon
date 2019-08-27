@@ -57,6 +57,28 @@
             &:first-child::after {
                 left: 4px;
             }
+
+            a {
+                &:hover {
+                    color: $yellow;
+                    transition: 1s;
+                }
+
+                &:focus, &:active {
+                    color: $yellow;
+                }
+
+            }
+                    // a:visited + span::after {
+                    //     content: '';
+                    //     display: block;
+                    //     background-color: $yellow;
+                    //     position: absolute;
+                    //     width: 50px;
+                    //     height: 10px;
+                    //     right: 0;
+                    //     margin-top: -22px;
+                    // }    
         }
     }
 }
