@@ -7,18 +7,8 @@
     height: 760px;
 
     .cta-container {
-        //position: relative;
         width: 30%;
         top: 15%;
-
-        p {
-            .gym-lemon {
-                font-family: $korolev-font;
-                font-weight: 700;
-                letter-spacing: 0.1rem;
-                color: $yellow;
-            }
-        }
 
         a {
             font-family: $cabin-font;
@@ -28,15 +18,7 @@
         }
     }
 
-    // img {
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 40%;
-    //     z-index: -1;
-    // }
-
     .slider-container {
-        //position: relative;
         top: 70px;
         left: 40%;
 

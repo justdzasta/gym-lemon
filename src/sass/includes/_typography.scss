@@ -23,7 +23,7 @@ h2 {
 h3 {
     font-family: $cabin-font;
     text-transform: uppercase;
-        @include font(1.2rem, .5em, $yellow, 700);
+        @include font(1.2rem, 1em, $yellow, 700);
 }
 
 h4 {
@@ -39,7 +39,13 @@ h5, h6 {
 
 p {
     font-family: $cabin-font;
-        @include font(.95rem, 1.5em, $white, 400);
+        @include font(.95rem, 1.5em, $light-gray, 400);
+}
+
+span.gym-lemon {
+    font-family: $korolev-font;
+        @include font(.95rem, 1.5em, $yellow, 400);
+
 }
 
 ul, li, a {
